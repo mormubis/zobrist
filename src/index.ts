@@ -15,14 +15,14 @@ const COLOR_PIVOT: Record<Color, number> = {
 };
 
 const EP_INDEX: Record<File, number> = {
-  'a': 772,
-  'b': 773,
-  'c': 774,
-  'd': 775,
-  'e': 776,
-  'f': 777,
-  'g': 778,
-  'h': 779,
+  a: 772,
+  b: 773,
+  c: 774,
+  d: 775,
+  e: 776,
+  f: 777,
+  g: 778,
+  h: 779,
 };
 
 const PIECE_TYPE: Record<PieceType, number> = {
@@ -55,8 +55,15 @@ function turn(color: Color): bigint {
   return color === 'white' ? (KEYS[780] ?? 0n) : 0n;
 }
 
-export { castling, enPassant,  piece, turn };
+export { castling, enPassant, piece, turn };
 
-export type { CastlingSide, Color, File, PieceType, Rank, Square } from './types.js';
+export type {
+  CastlingSide,
+  Color,
+  File,
+  PieceType,
+  Rank,
+  Square,
+} from './types.js';
 
-export {KEYS} from './keys.js';
+export { KEYS } from './keys.js';

@@ -51,8 +51,8 @@ pnpm lint && pnpm test && pnpm build   # full pre-PR check
 - `src/keys.ts` contains only the raw constant array. Logic lives in
   `src/index.ts`.
 - The `turn()` function returns `KEYS[780]` for white and `0n` for black,
-  matching the Polyglot convention that the turn key is XORed only when white
-  is to move.
+  matching the Polyglot convention that the turn key is XORed only when white is
+  to move.
 - En passant: the package provides the raw key values. The consumer is
   responsible for applying the Polyglot rule that en passant is only included
   when an enemy pawn can actually capture.

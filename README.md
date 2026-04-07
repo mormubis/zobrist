@@ -1,7 +1,7 @@
 # @echecs/zobrist
 
-The 781 [Polyglot](http://hgm.nubati.net/book_format.html) standard Zobrist
-hash keys for chess positions. Zero dependencies, strict TypeScript.
+The 781 [Polyglot](http://hgm.nubati.net/book_format.html) standard Zobrist hash
+keys for chess positions. Zero dependencies, strict TypeScript.
 
 ## Install
 
@@ -44,8 +44,8 @@ console.log(hash.toString(16)); // '463b96181691fc9c'
 Returns the Zobrist key for a piece on a square.
 
 - `square` — Board square (`'a1'` through `'h8'`)
-- `type` — Piece type (`'pawn'` | `'knight'` | `'bishop'` | `'rook'` |
-  `'queen'` | `'king'`)
+- `type` — Piece type (`'pawn'` | `'knight'` | `'bishop'` | `'rook'` | `'queen'`
+  | `'king'`)
 - `color` — Side (`'white'` | `'black'`)
 
 ### `turn(color)`
@@ -72,8 +72,8 @@ adjacent to the en passant target square.
 ### `KEYS`
 
 The raw 781-value `readonly bigint[]` array for direct Polyglot index access.
-Layout: `[0..767]` piece-square, `[768..771]` castling, `[772..779]` en
-passant, `[780]` turn.
+Layout: `[0..767]` piece-square, `[768..771]` castling, `[772..779]` en passant,
+`[780]` turn.
 
 ## Polyglot Layout
 
