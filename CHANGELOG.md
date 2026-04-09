@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.2 — 2026-04-09
+
+### Changed
+
+- removed inaccurate `fide` keyword
+
 ## 1.0.1 — 2026-04-09
 
 - Documented exported types (`CastlingSide`, `Color`, `File`, `PieceType`,

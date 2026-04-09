@@ -40,7 +40,6 @@
   "homepage": "https://github.com/mormubis/zobrist#readme",
   "keywords": [
     "chess",
-    "fide",
     "hash",
     "no-dependencies",
     "opening-book",
@@ -75,5 +74,5 @@
   },
   "type": "module",
   "types": "dist/index.d.ts",
-  "version": "1.0.1"
+  "version": "1.0.2"
 }
