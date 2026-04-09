@@ -3,6 +3,8 @@
 Agent guidance for the `@echecs/zobrist` package — Polyglot standard Zobrist
 hash keys for chess positions.
 
+**See also:** [`REFERENCES.md`](REFERENCES.md)
+
 See the root `AGENTS.md` for workspace-wide conventions.
 
 **Backlog:** tracked in
@@ -18,18 +20,6 @@ dependencies — keep it that way.
 
 Named exports: `KEYS` (the raw 781-value array), `piece()`, `turn()`,
 `castling()`, `enPassant()`.
-
----
-
-## Specification
-
-The Polyglot opening book format defines the Zobrist hash layout:
-
-- Source: http://hgm.nubati.net/book_format.html
-- Reference implementation: python-chess `chess/polyglot.py`
-
-The 781 values in `src/keys.ts` MUST match the Polyglot standard exactly. Any
-deviation breaks interoperability with Polyglot opening books and chess engines.
 
 ---
 
