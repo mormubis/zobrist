@@ -5,6 +5,9 @@ hash keys for chess positions.
 
 See the root `AGENTS.md` for workspace-wide conventions.
 
+**Backlog:** tracked in
+[GitHub Issues](https://github.com/mormubis/zobrist/issues).
+
 ---
 
 ## Project Overview
