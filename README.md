@@ -75,6 +75,44 @@ The raw 781-value `readonly bigint[]` array for direct Polyglot index access.
 Layout: `[0..767]` piece-square, `[768..771]` castling, `[772..779]` en passant,
 `[780]` turn.
 
+## Types
+
+```typescript
+type CastlingSide = 'king' | 'queen';
+```
+
+Castling side — kingside or queenside.
+
+```typescript
+type Color = 'black' | 'white';
+```
+
+Side to move.
+
+```typescript
+type File = 'a' | 'b' | 'c' | 'd' | 'e' | 'f' | 'g' | 'h';
+```
+
+Board file (column).
+
+```typescript
+type PieceType = 'bishop' | 'king' | 'knight' | 'pawn' | 'queen' | 'rook';
+```
+
+Chess piece type.
+
+```typescript
+type Rank = '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8';
+```
+
+Board rank (row).
+
+```typescript
+type Square = `${File}${Rank}`;
+```
+
+A board square — combination of `File` and `Rank`, e.g. `'e4'`.
+
 ## Polyglot Layout
 
 | Subarray     | Offset | Length | Description                 |
