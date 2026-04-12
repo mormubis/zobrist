@@ -1,7 +1,7 @@
 {
   "author": "Adrian de la Rosa <adrian@delarosab.me>",
   "bugs": {
-    "url": "https://github.com/mormubis/zobrist/issues"
+    "url": "https://github.com/echecsjs/zobrist/issues"
   },
   "description": "The 781 Polyglot standard Zobrist hash keys for chess positions. Zero dependencies, strict TypeScript.",
   "devDependencies": {
@@ -37,7 +37,7 @@
     "README.md",
     "CHANGELOG.md"
   ],
-  "homepage": "https://github.com/mormubis/zobrist#readme",
+  "homepage": "https://github.com/echecsjs/zobrist#readme",
   "keywords": [
     "chess",
     "hash",
@@ -56,7 +56,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mormubis/zobrist.git"
+    "url": "https://github.com/echecsjs/zobrist.git"
   },
   "sideEffects": false,
   "scripts": {
